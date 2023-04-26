@@ -72,13 +72,24 @@ public class Sample2 {
             return o1.surName.compareTo(o2.surName);
         }
 
+
     }
+class age implements Comparator<Employee> {
+
+
+    @Override
+    public int compare(Employee o1, Employee o2) {
+        return o1.age.compareTo(o2.age);
+    }
+}
+
 
     abstract class Employee implements Comparable<Employee> {
 
         protected String firstName;
         protected String surName;
         protected double salary;
+        protected int age;
 
         public Employee(String firstName, String surName, double salary) {
             this.firstName = firstName;
