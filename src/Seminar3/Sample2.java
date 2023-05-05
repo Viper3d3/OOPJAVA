@@ -74,14 +74,7 @@ public class Sample2 {
 
 
     }
-class age implements Comparator<Employee> {
 
-
-    @Override
-    public int compare(Employee o1, Employee o2) {
-        return o1.age.compareTo(o2.age);
-    }
-}
 
 
     abstract class Employee implements Comparable<Employee> {

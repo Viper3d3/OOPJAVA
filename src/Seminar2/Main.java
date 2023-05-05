@@ -17,12 +17,10 @@ public class Main {
                 new Cat("Bruno", 8),
                 new Cat("Washington", 16),
                 new Cat("Meow", 18)
-
         };
 
-
         Plate plate = new Plate(100);
-        plate.info();
+
         for (Cat entry : cats) {
             if (entry.eat(plate)) {
                 System.out.println(entry.getName() + " скушал!");
@@ -30,6 +28,7 @@ public class Main {
                 System.out.println(entry.getName() + " не ел, не хватает корма.");
             }
             plate.info();
+
         }
     }
 }

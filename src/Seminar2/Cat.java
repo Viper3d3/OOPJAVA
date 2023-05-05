@@ -2,9 +2,6 @@ package Seminar2;
 
 public class Cat {
 
-
-
-
     private String name;
     int appetite;
 
@@ -44,6 +41,5 @@ public class Cat {
                 '}';
     }
 
-    public void hungry(boolean setFood) {
-    }
+
 }

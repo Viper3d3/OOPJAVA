@@ -2,12 +2,16 @@ package Seminar2;
 
 public class Plate {
     private int food;
+    private int addFood;
 
     public Plate(int food) {
 
         this.food = food;
     }
+        public void eat(int addFood){
 
+
+    }
     public void info() {
 
         System.out.println("plate: " + food);
